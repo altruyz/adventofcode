@@ -1,3 +1,11 @@
 <Solution>
-  <Project Path="adventofcode/adventofcode.csproj" Id="6c3e8e5e-ffa6-412f-8562-b36c5cbf93c8" />
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="adventofcode/adventofcode.csproj" Id="6c3e8e5e-ffa6-412f-8562-b36c5cbf93c8">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
 </Solution>

@@ -32,6 +32,10 @@ namespace adventofcode
                     Enigme4 enigme4 = new Enigme4();
                     enigme4.ResolutionEnigme();
                     break;
+                case 5:
+                    Enigme5 enigme5 = new Enigme5();
+                    enigme5.ResolutionEnigme();
+                    break;
             }
             
         }
