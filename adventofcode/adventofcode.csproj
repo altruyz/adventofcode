@@ -83,6 +83,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enigme8.cs" />
+    <Compile Include="Enigme7.cs" />
     <Compile Include="Enigme6.cs" />
     <Compile Include="Enigme5.cs" />
     <Compile Include="Enigme4.cs" />
